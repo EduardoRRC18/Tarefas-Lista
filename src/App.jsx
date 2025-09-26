@@ -63,7 +63,7 @@ function App() {
     <div className="app">
       {/* Header do app */}
       <div className="header">
-        <h1>Today's Schedule</h1>
+        <h1>Lista de Tarefas</h1>
         <p className="data-atual">{obterDataAtual()}</p>
       </div>
       
