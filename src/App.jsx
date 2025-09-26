@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  // useState para guardar a lista de tarefas
+  // useState para guardar a lista de tarefas (array de objetos)
   const [tarefas, setTarefas] = useState([])
-  // useState para guardar o texto que o usuário está digitando
+  // useState para guardar o texto que o usuário está digitando no input
   const [novaTarefa, setNovaTarefa] = useState('')
   
   // Função para pegar a data atual formatada
